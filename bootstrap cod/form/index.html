@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title> Projeto Bootstrap - Formulário </title>
+</head>
+<body>
+    <!-- formulário normal -->
+    <div class="container">
+        <form method="POST">
+            email: <br>
+            <input type="email" name="email"> <br><br>
+            senha: <br>
+            <input type="password" name="senha"> <br><br>
+            <input type="submit" value="Entrar">
+        </form>
+        <hr/>
+        <!-- formulário com bootstrap -->
+        <form method="POST">
+            <div class="form-group">
+                <label for="email"> </label>
+                <input id="email" type="email" name="email" class="form-control" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label for="senha"> senha: </label>
+                <input id="senha" type="password" name="senha" class="form-control" placeholder="senha">
+            </div>
+            <div class="form-group">
+                <input class="btn btn-light" type="submite" value="Entrar">
+            </div>
+        </form>
+    </div>
+
+
+    <!-- javascripts -->
+    <script type="text/javascript" src="assets/js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

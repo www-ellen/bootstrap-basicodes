@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <title> Projeto Bootstrap - Accordion </title>
+</head>
+<body>
+    <div class="container">
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#c1" aria-controls="c1"> Card 1 </button>
+                </div>
+                <div id="c1" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quibusdam, cumque officiis at beatae ipsa! Officiis nesciunt amet autem atque nihil itaque pariatur voluptatum fugiat earum ad, ut placeat ipsam!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- javascripts -->
+    <script type="text/javascript" src="assets/js/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
